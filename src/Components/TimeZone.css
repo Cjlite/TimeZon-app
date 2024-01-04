@@ -1,0 +1,97 @@
+.container{
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+  margin-left: 10px;
+}
+.headerContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: gainsboro;
+  margin-left: 50px;
+}
+.defauldDate{
+font-weight: bold;  
+}
+.topLeft,
+.topRight{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.arrowText{
+  color: blue;
+  padding: 5px;
+}
+
+
+.timeStampContainer1{
+  display: flex;
+  flex-direction: column;
+}
+.timeStamp{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+.Calender{
+  display: flex;
+  /* align-items: end; */
+  justify-content: end;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+
+
+.tableContainer {
+  width: 90rem;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+.table td {
+  border: 1px solid #ddbdbd;
+  padding: 8px;
+}
+.table .tableRow:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+.selectedDateTimeContainer{
+  display: flex;
+  /* margin-top: 10px; */
+  margin-left: 50px;
+  /* padding:15px ; */
+}
+.DateTimeContainer{
+  display: flex;
+  flex-direction: column;
+  width: 12rem;
+  height: 5rem;
+  padding: 5px;
+  font-weight:500 ;
+  border-bottom: 1px solid black;
+  background-color: gainsboro;
+}
+
+.checkbox{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding:10px 20px 10px 10px;
+  font-weight: 400;
+}
+
+select{
+  padding: 8px;
+}
